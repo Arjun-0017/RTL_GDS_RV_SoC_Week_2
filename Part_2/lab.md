@@ -25,7 +25,7 @@
 </p>
 Now tlv (transaction level verilog) to verilog conversion of rvmyth (RISC-V core) is successful.
 
-### 3. Pre Sythesis Simulation
+### 3. Pre Synthesis Simulation
 ```bash
    $ iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM \
     -I src/include -I src/module \
@@ -37,4 +37,9 @@ Now tlv (transaction level verilog) to verilog conversion of rvmyth (RISC-V core
 <p align="center">
   <img src="assets/pre_synth_output_wave.png" alt="yosys" height="500" width="800"/>
 </p>
+- Here clk, reset is global signal.
+- RV_TO_DAC is digital from rvmyth core sent to DAC.
+- OUT is output of DAC which is analog version of 10 bit RV_TO_DAC signal.
+
+
 
