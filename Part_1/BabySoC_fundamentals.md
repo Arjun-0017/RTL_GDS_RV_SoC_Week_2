@@ -1,1 +1,3 @@
-# VSD BabySoC Fundamentals
+# Fundamentals of SoC Design and BabySoC
+------------------------------
+## 
