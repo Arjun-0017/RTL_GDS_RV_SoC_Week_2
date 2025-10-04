@@ -54,5 +54,17 @@ Now tlv (transaction level verilog) to verilog conversion of rvmyth (RISC-V core
   <img src="assets/synth_script.png" alt="yosys" height="500" width="800"/>
 </p>
 
+```bash
+   $ yosys ./script/yosys.ys  // this runs the synthesis script and generates gate level netlist
+   $ ls ../output/synth/
+```
+<p align="center">
+  <img src="assets/netlist_generated.png" alt="yosys" height="500" width="800"/>
+</p>
+
+### Block diagram of the BabySoc (Synthesized version)
+<p align="center">
+  <img src="assets/VSDBabySoC.png" alt="yosys" height="500" width="800"/>
+</p>
 
 
