@@ -1,9 +1,10 @@
 # BabySoC Fundamentals
 ------------------------------
-## SOC (System-On-Chip)
+## What is SOC (System-On-Chip)?
 ------------------------------
 A System-on-Chip integrates all essential parts of a computing system—such as the processor, memory, communication interfaces, and peripheral devices—onto a single silicon die.
-Instead of using multiple chips on a PCB, SoCs combine everything into one integrated circuit, which results in lower power consumption, smaller size, and faster performance.
+Instead of using multiple chips on a PCB, SoCs combine everything into one integrated circuit,
+which results in lower power consumption, smaller size, and faster performance.
 
 SoCs are widely used in embedded systems, mobile devices, automotive electronics, and AI accelerators, where efficiency and compactness are key.
 
@@ -11,10 +12,10 @@ SoCs are widely used in embedded systems, mobile devices, automotive electronics
 --------------------------
 A standard SoC consists of the following hardware building blocks:
 
-<b>Processor (CPU/Core)</b>
+**<b>Processor (CPU/Core)</b>**
 Executes software instructions and controls overall system behavior. Commonly implemented with architectures like RISC-V or ARM.
 
-<b>Memory Units</b>
+**<b>Memory Units</b>**
 Include on-chip SRAM, ROM, and memory controllers that handle external DRAM or flash. These store both instructions and data required during program execution.
 
 <b>Peripherals</b>
@@ -35,18 +36,10 @@ Each of these modules is carefully integrated so that data moves efficiently acr
 
 
 # 🧠 Fundamentals of SoC Design  
-### From SFAL-VSD SoC Journey Repository
-
----
-
 ## 🌐 Overview
 
 This module introduces the **Fundamentals of System-on-Chip (SoC) Design** — the conceptual foundation for anyone entering SoC development.  
 It explains what an SoC is, explores its main components, introduces the simplified **BabySoC**, and highlights the importance of **functional modelling** before moving to RTL and physical design stages.
-
-The goal is to help learners understand how multiple digital blocks integrate and communicate within a single silicon chip.
-
----
 
 ## ⚙️ What is a System-on-Chip (SoC)?
 
