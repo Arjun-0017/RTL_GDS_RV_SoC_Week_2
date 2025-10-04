@@ -1,3 +1,3 @@
-# Fundamentals of SoC Design and BabySoC
+# BabySoC Fundamentals
 ------------------------------
 ## 
