@@ -47,15 +47,15 @@ A standard SoC contains the following major building blocks:
 ---
 
 ##  BabySoC is a Simplified Model for Learning SoC Concepts
-- BabySoC serves as an ideal educational platform for understanding the fundamentals of System-on-Chip (SoC) design because it integrates the         essential building blocks of a modern SoC — a CPU (RVMYTH), a clock generator (PLL), and an analog output interface (DAC) — in a compact,modular,   and fully open-source environment.
+- BabySoC is good for understanding the fundamentals of System-on-Chip (SoC) design because it integrates the essential building blocks of a modern   SoC — a CPU (RVMYTH), a clock generator (PLL), and an analog output interface (DAC) — in a compact,modular, and fully open-source environment.
 
 - This simplified structure allows learners to explore core SoC design principles without the complexity of industrial-scale systems.
 
-- The RVMYTH RISC-V CPU demonstrates digital processing, instruction execution, and register-based data flow.
+- The **RVMYTH** RISC-V CPU demonstrates digital processing, instruction execution, and register-based data flow.
 
-- The Phase-Locked Loop (PLL) models real-world clock management and synchronization challenges within a chip.
+- The **Phase-Locked Loop (PLL)** models real-world clock management and synchronization challenges within a chip.
 
-- The 10-bit DAC bridges the digital and analog domains, illustrating how digital computation drives analog peripherals.
+- The **10-bit DAC** bridges the digital and analog domains, illustrating how digital computation drives analog peripherals.
 
 By focusing on these minimal yet representative modules, BabySoC provides a hands-on learning path from functional modeling and RTL design to simulation, synthesis, and hardware validation.
 It emphasizes system integration, timing coordination, and inter-module communication — the core challenges of SoC design — while keeping the architecture simple enough for experimentation and education.
@@ -83,7 +83,5 @@ Before diving into RTL coding or physical design, engineers develop **functional
 
 5. **Smooth RTL Transition**  
    - Ensures functional consistency through all design stages.
-
-### 🧭 Design Flow Example
 
 
