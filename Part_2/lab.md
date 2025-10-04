@@ -88,3 +88,12 @@ Gate level simulation
   <img src="assets/post_synth_wave.png" alt="yosys" height="500" width="800"/>
 </p>
 
+
+### 7. Reset Behavior
+<p align="center">
+  <img src="assets/reset_behaviour.png" alt="yosys" height="500" width="800"/>
+</p>
+
+**Explanation :**
+- Whenever the **reset** signal is high then output becomes Zero.
+- The DAC stop conversion and reset the output to zero
