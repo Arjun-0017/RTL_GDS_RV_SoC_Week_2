@@ -85,6 +85,6 @@ Gate level simulation
    $ gtkwave post_synth_sim.vcd
 ```
 <p align="center">
-  <img src="assets/post_synth_sim_wave.png" alt="yosys" height="500" width="800"/>
+  <img src="assets/post_synth_wave.png" alt="yosys" height="500" width="800"/>
 </p>
 
