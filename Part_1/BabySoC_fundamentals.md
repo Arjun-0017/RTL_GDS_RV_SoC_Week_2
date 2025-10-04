@@ -1,3 +1,4 @@
 # BabySoC Fundamentals
 ------------------------------
-## SOC (System On Chip)
+## SOC (System-On-Chip)
+------------------------------
