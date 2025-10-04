@@ -72,9 +72,19 @@ Now tlv (transaction level verilog) to verilog conversion of rvmyth (RISC-V core
 
 
 ### 6. Post Synthesis Simulation
-
+Gate level simulation
 ```bash
    $ cd ..
    $ mkdir post_synth_sim
-   $ 
+   $ iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 -o output/post_synth_sim/post_synth_sim.out -DPOST_SYNTH_SIM \
+    -I src/include -I src/module \
+    -I output/synth -I src/gls_model src/module/testbench.v
+
+   $ cd output/post_synth_sim
+   $ ./post_synth_sim.out
+   $ gtkwave post_synth_sim.vcd
 ```
+<p align="center">
+  <img src="assets/post_synth_sim_wave.png" alt="yosys" height="500" width="800"/>
+</p>
+
