@@ -23,4 +23,18 @@
 <p align="center">
   <img src="assets/tlv_to_v_2.png" alt="yosys" height="500" width="800"/>
 </p>
+Now tlv (transaction level verilog) to verilog conversion of rvmyth (RISC-V core) is successful.
+
+### 3. Pre Sythesis Simulation
+```bash
+   $ iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM \
+    -I src/include -I src/module \
+    src/module/testbench.v src/module/vsdbabysoc.v
+   $ cd output/pre_synth_sim
+   $ ./pre_synth_sim.out
+   $ gtkwave pre_synth_sim.vcd
+```
+<p align="center">
+  <img src="assets/pre_synth_output_wave.png" alt="yosys" height="500" width="800"/>
+</p>
 
