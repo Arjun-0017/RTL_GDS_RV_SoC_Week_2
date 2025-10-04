@@ -46,19 +46,23 @@ A standard SoC contains the following major building blocks:
 
 ---
 
-## 👶 Why Use *BabySoC* for Learning
+##  BabySoC is a Simplified Model for Learning SoC Concepts
+BabySoC serves as an ideal educational platform for understanding the fundamentals of System-on-Chip (SoC) design because it integrates the essential building blocks of a modern SoC — a CPU (RVMYTH), a clock generator (PLL), and an analog output interface (DAC) — in a compact, modular, and fully open-source environment.
+
+This simplified structure allows learners to explore core SoC design principles without the complexity of industrial-scale systems.
+
+The RVMYTH RISC-V CPU demonstrates digital processing, instruction execution, and register-based data flow.
+
+The Phase-Locked Loop (PLL) models real-world clock management and synchronization challenges within a chip.
+
+The 10-bit DAC bridges the digital and analog domains, illustrating how digital computation drives analog peripherals.
+
+By focusing on these minimal yet representative modules, BabySoC provides a hands-on learning path from functional modeling and RTL design to simulation, synthesis, and hardware validation.
+It emphasizes system integration, timing coordination, and inter-module communication — the core challenges of SoC design — while keeping the architecture simple enough for experimentation and education.
+
+In essence, BabySoC distills the complexity of SoC architecture into a small, manageable prototype, enabling learners to grasp complete chip design workflows using open-source tools and RISC-V-based open IPs.
 
 **BabySoC** is a simplified SoC model used to teach fundamental SoC concepts without overwhelming complexity.
-
-### 🎯 Learning Benefits:
-- 🧱 Minimal yet complete SoC structure for easy understanding.  
-- 🔍 Simplifies debugging and simulation.  
-- 🔄 Supports step-by-step feature addition (scalable design).  
-- 🧠 Helps visualize CPU–memory–peripheral interaction.  
-- 🧩 Builds a solid foundation for understanding real-world SoCs.
-
-By experimenting with BabySoC, learners can clearly observe how different hardware modules communicate and synchronize.
-
 ---
 
 ## 🧮 Role of Functional Modelling Before RTL & Physical Design
