@@ -14,7 +14,7 @@
    $ show pyyaml click sandpiper-saas             // check whether these packages are successfully installed or not
 ```
 <p align="center">
-  <img src="assets/python_packages.png" alt="yosys" height="400" width="800"/>
+  <img src="assets/python_packages.png" alt="yosys" height="500" width="800"/>
 </p>
 
 ```bash
