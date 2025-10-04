@@ -5,6 +5,6 @@
 ```bash
    $ git clone https://github.com/manili/VSDBabySoC.git
    $ cd VSDBabySoc
-   $ mkdir -p output/pre_synth_sim    // store presynthesis simulation results
+   $ mkdir -p output/pre_synth_sim                   // store presynthesis simulation results
 ```
 
