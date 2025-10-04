@@ -34,8 +34,8 @@ Now tlv (transaction level verilog) to verilog conversion of rvmyth (RISC-V core
    $ ./pre_synth_sim.out
    $ gtkwave pre_synth_sim.vcd
 ```
-**Explanation : **
--DPRE_SYNTH_SIM: Defines the PRE_SYNTH_SIM macro for conditional compilation in the testbench.
+**Explanation :**
+- DPRE_SYNTH_SIM: Defines the PRE_SYNTH_SIM macro for conditional compilation in the testbench.
 
 <p align="center">
   <img src="assets/pre_synth_output_wave.png" alt="yosys" height="500" width="800"/>
