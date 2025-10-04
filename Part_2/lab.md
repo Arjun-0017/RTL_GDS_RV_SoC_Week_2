@@ -34,6 +34,9 @@ Now tlv (transaction level verilog) to verilog conversion of rvmyth (RISC-V core
    $ ./pre_synth_sim.out
    $ gtkwave pre_synth_sim.vcd
 ```
+**Explanation : **
+-DPRE_SYNTH_SIM: Defines the PRE_SYNTH_SIM macro for conditional compilation in the testbench.
+
 <p align="center">
   <img src="assets/pre_synth_output_wave.png" alt="yosys" height="500" width="800"/>
 </p>
@@ -62,9 +65,16 @@ Now tlv (transaction level verilog) to verilog conversion of rvmyth (RISC-V core
   <img src="assets/netlist_generated.png" alt="yosys" height="500" width="800"/>
 </p>
 
-### Block diagram of the BabySoc (Synthesized version)
+### 5. Block diagram of the BabySoc (Synthesized version)
 <p align="center">
   <img src="assets/VSDBabySoc.png" alt="yosys" height="500" width="800"/>
 </p>
 
 
+### 6. Post Synthesis Simulation
+
+```bash
+   $ cd ..
+   $ mkdir post_synth_sim
+   $ 
+```
